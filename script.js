@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
             feedbackDiv.style.color = '#28a745';
         }
         else {
-            feedbackDiv.textContent = messages.join("\n"); 
+            feedbackDiv.innerHTML = messages.join("<br>"); 
             feedbackDiv.style.color = '#dc3545';
         }
         
